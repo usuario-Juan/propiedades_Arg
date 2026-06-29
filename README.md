@@ -42,8 +42,8 @@ Propiedades_Arg/
 │   └── archive/                # Archivos intermedios
 │
 ├── notebooks/
-│   ├── 02_limpieza_y_preparacion.ipynb
-│   └── 03_eda_geografico_FINAL.ipynb
+│   ├── 03_eda_geografico_FINAL.ipynb
+│
 │
 ├── figures/                    # Visualizaciones generadas
 │   ├── 01_volumen_vs_precio_provincia.png
