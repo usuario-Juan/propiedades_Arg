@@ -42,7 +42,7 @@ Propiedades_Arg/
 │   └── archive/                # Archivos intermedios
 │
 ├── notebooks/
-│   ├── 03_eda_geografico_FINAL.ipynb
+│   └── 03_eda_geografico_FINAL.ipynb
 │
 │
 ├── figures/                    # Visualizaciones generadas
