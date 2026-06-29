@@ -28,29 +28,32 @@ Análisis exploratorio del mercado inmobiliario argentino basado en datos de **P
 El dataset proviene de una plataforma de publicación de avisos. La variable `end_date` representa la fecha de baja del anuncio, no necesariamente la fecha de escrituración. Por lo tanto, `days_on_market` es un **proxy de rotación de avisos** y permite comparaciones relativas entre zonas, pero no representa el tiempo real de venta (que en Argentina típicamente es 90-180 días).
 
 ## 📁 Estructura del Proyecto
+
+```text
 Propiedades_Arg/
 │
 ├── data/
-│ ├── raw/ # Dataset original (no subido a GitHub)
-│ │ └── entrenamiento.csv
-│ │
-│ └── processed/ # Datasets procesados
-│ ├── PROPERATI_VENTAS_ARG_FINAL.csv # Dataset final (ventas + Argentina)
-│ └── archive/ # Archivos intermedios
+│   ├── raw/                     # Dataset original (no subido a GitHub)
+│   │   └── entrenamiento.csv
+│   │
+│   ├── processed/              # Datasets procesados
+│   │   └── PROPERATI_VENTAS_ARG_FINAL.csv
+│   │
+│   └── archive/                # Archivos intermedios
 │
 ├── notebooks/
-│ ├── 02_limpieza_y_preparacion.ipynb # Limpieza y feature engineering
-│ └── 03_eda_geografico_FINAL.ipynb # Análisis exploratorio geográfico
+│   ├── 02_limpieza_y_preparacion.ipynb
+│   └── 03_eda_geografico_FINAL.ipynb
 │
-├── figures/ # Visualizaciones generadas
-│ ├── 01_volumen_vs_precio_provincia.png
-│ ├── 02_caba_top10_barrios.png
-│ └── dashboard_powerbi_final.png
+├── figures/                    # Visualizaciones generadas
+│   ├── 01_volumen_vs_precio_provincia.png
+│   ├── 02_caba_top10_barrios.png
+│   └── dashboard_powerbi_final.png
 │
-├── .gitignore # Archivos excluidos de Git
-├── requirements.txt # Dependencias de Python
-└── README.md # Este archivo
-
+├── .gitignore                  # Archivos excluidos de Git
+├── requirements.txt            # Dependencias de Python
+└── README.md                   # Este archivo
+```
 ## 🚀 Instalación y Uso
 
 ### Requisitos previos

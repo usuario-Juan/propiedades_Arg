@@ -1,0 +1,18 @@
+# Librerías principales de análisis de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter Notebook
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Soporte para Excel y formatos de datos
+openpyxl>=3.1.0
+pyarrow>=12.0.0
+
+# Utilidades adicionales
+python-dateutil>=2.8.0
