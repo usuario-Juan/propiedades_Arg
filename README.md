@@ -189,7 +189,3 @@ Este proyecto utiliza el dataset **Properati - Argentina**, disponible en Kaggle
 
 **Nota sobre la licencia:**
 La licencia del dataset no está especificada en Kaggle. Este proyecto se realiza con fines **educativos y de portfolio**, sin intención comercial. 
-
-
-
-"# propiedades_Arg" 
